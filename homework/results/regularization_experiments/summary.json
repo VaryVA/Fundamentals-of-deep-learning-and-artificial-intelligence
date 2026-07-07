@@ -1,0 +1,44 @@
+{
+  "No Reg": {
+    "final_train_acc": 0.9947,
+    "final_test_acc": 0.9809,
+    "best_test_acc": 0.9809,
+    "gap": 0.0138
+  },
+  "Dropout 0.1": {
+    "final_train_acc": 0.9898,
+    "final_test_acc": 0.9814,
+    "best_test_acc": 0.9816,
+    "gap": 0.0083
+  },
+  "Dropout 0.3": {
+    "final_train_acc": 0.9803,
+    "final_test_acc": 0.9785,
+    "best_test_acc": 0.9817,
+    "gap": 0.0018
+  },
+  "Dropout 0.5": {
+    "final_train_acc": 0.9611,
+    "final_test_acc": 0.9767,
+    "best_test_acc": 0.9767,
+    "gap": -0.0156
+  },
+  "BatchNorm": {
+    "final_train_acc": 0.9966,
+    "final_test_acc": 0.9793,
+    "best_test_acc": 0.9826,
+    "gap": 0.0173
+  },
+  "Dropout + BN": {
+    "final_train_acc": 0.9798,
+    "final_test_acc": 0.9833,
+    "best_test_acc": 0.9833,
+    "gap": -0.0034
+  },
+  "L2 (wd=1e-3)": {
+    "final_train_acc": 0.9853,
+    "final_test_acc": 0.9745,
+    "best_test_acc": 0.9798,
+    "gap": 0.0108
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "Narrow [64, 32, 16]": {
+    "params": 53242,
+    "time_sec": 118.61,
+    "final_train_acc": 0.9895,
+    "final_test_acc": 0.976
+  },
+  "Medium [256, 128, 64]": {
+    "params": 243658,
+    "time_sec": 122.84,
+    "final_train_acc": 0.9948,
+    "final_test_acc": 0.982
+  },
+  "Wide [1024, 512, 256]": {
+    "params": 1466122,
+    "time_sec": 139.53,
+    "final_train_acc": 0.9947,
+    "final_test_acc": 0.9807
+  },
+  "Very Wide [2048, 1024, 512]": {
+    "params": 4242954,
+    "time_sec": 123.67,
+    "final_train_acc": 0.9952,
+    "final_test_acc": 0.9822
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "base_64_Сужение (x0.5)": {
+    "hidden_sizes": [
+      64,
+      32,
+      16
+    ],
+    "final_test_acc": 0.9759
+  },
+  "base_64_Постоянная (x1.0)": {
+    "hidden_sizes": [
+      64,
+      64,
+      64
+    ],
+    "final_test_acc": 0.9776
+  },
+  "base_64_Расширение (x2.0)": {
+    "hidden_sizes": [
+      64,
+      128,
+      256
+    ],
+    "final_test_acc": 0.9785
+  },
+  "base_256_Сужение (x0.5)": {
+    "hidden_sizes": [
+      256,
+      128,
+      64
+    ],
+    "final_test_acc": 0.9823
+  },
+  "base_256_Постоянная (x1.0)": {
+    "hidden_sizes": [
+      256,
+      256,
+      256
+    ],
+    "final_test_acc": 0.9811
+  },
+  "base_256_Расширение (x2.0)": {
+    "hidden_sizes": [
+      256,
+      512,
+      1024
+    ],
+    "final_test_acc": 0.9777
+  },
+  "base_1024_Сужение (x0.5)": {
+    "hidden_sizes": [
+      1024,
+      512,
+      256
+    ],
+    "final_test_acc": 0.9807
+  },
+  "base_1024_Постоянная (x1.0)": {
+    "hidden_sizes": [
+      1024,
+      1024,
+      1024
+    ],
+    "final_test_acc": 0.9786
+  },
+  "base_1024_Расширение (x2.0)": {
+    "hidden_sizes": [
+      1024,
+      2048,
+      4096
+    ],
+    "final_test_acc": 0.9791
+  }
+}

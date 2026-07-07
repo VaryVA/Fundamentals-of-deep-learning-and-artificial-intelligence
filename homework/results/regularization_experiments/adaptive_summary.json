@@ -1,0 +1,5 @@
+{
+  "adaptive_final_test": 0.9799,
+  "static_final_test": 0.9798,
+  "bn_low_mom_final_test": 0.9819
+}
